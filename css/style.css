@@ -514,6 +514,9 @@ body {
   .popup__close:hover {
     color: #55c57a; }
 
+body {
+  overflow: hidden; }
+
 .header {
   position: relative; }
   .header__text-box {
@@ -525,7 +528,7 @@ body {
   .header__shape--hero {
     position: absolute;
     display: block;
-    top: -8rem;
+    top: -6rem;
     right: -18rem;
     width: 24rem;
     height: 24rem;
@@ -538,7 +541,7 @@ body {
       opacity: .5;
       position: absolute;
       display: block;
-      top: -7.8rem;
+      top: -5.8rem;
       right: -17rem;
       width: 24rem;
       height: 24rem;
@@ -549,7 +552,7 @@ body {
   .header__shape--img {
     opacity: .2;
     width: 100%;
-    transform: rotate(-25deg) translate(-20%, 50%); }
+    transform: rotate(-25deg) translate(-20%, 48%); }
 
 .row {
   max-width: 114rem;
