@@ -6,7 +6,7 @@ async function getIP() {
 }
 async function getInfo(){
     const ip = await getIP()
-    const response = await fetch(`http://ipwho.is/${ip}`)
+    const response = await fetch(`https://ipwho.is/${ip}`)
     return  await response.json()
 }
 const [mainDiv,...secondDiv] = document.getElementsByTagName('div')
